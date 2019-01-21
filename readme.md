@@ -14,8 +14,17 @@ Per installare l'addon [scaricate il file ZIP](https://github.com/kodi-bino/plug
 
 Testato su Kodi 17.6 (Windows 10), Kodi 18 RC2 (Windows 10), LibreElec 8.90 (Raspberry PI 2), Kodi 17.6 (Android), Kodi 18 RC3 (Android).
 
-# Known Issues
-I canali live non funzionano dall'estero, Mediaset ha attivato una georestrizione che non è possibile bypassare con il nuovo sistema.
+# Live Estero
+
+#EXTINF:0,CANALE 5
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live2-mediaset-it.akamaized.net/Content/dash_d0_clr_vos/live/channel(c5)/manifest.mpd
+#EXTINF:0,CANALE 5
+https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(c5)/index.m3u8
+#EXTINF:0,CANALE 5
+https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(c5)/index.m3u8
+
 
 # Donazioni
 Se volete offrirmi una birra o darmi una mano con lo sviluppo potete donare Bitcoin all'indirizzo: 
@@ -23,4 +32,3 @@ Se volete offrirmi una birra o darmi una mano con lo sviluppo potete donare Bitc
 1EPvpSztxmU71DXy4LVoxFbK7FisfPpTzV
 
 Ogni aiuto è molto gradito! Grazie mille!
-
